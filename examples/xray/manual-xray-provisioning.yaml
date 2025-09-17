@@ -1,0 +1,19 @@
+name: Manual Xray provisioning collection
+baseUrl: https://dummyjson.com
+metadata:
+  - execution-description: "Manual Xray provisioning test execution"
+    revision: 1
+    version: 1.0.0
+    test-plan-key: "XSP-88"
+    environments: "DesktopChrome"
+tests:
+  - url: /users
+    name: Test all users API
+    metadata:
+      - test-key: XSP-85
+        requirement-keys: XSP-83
+  - url: /users/1
+    name: Test get user by id API
+    metadata:
+      - test-key: XSP-86
+        requirement-keys: XSP-83

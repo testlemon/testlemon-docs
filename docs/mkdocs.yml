@@ -1,0 +1,58 @@
+site_name: TestLemon Documentation
+site_url: https://docs.testlemon.com/
+site_description: "Test REST API, automate API testing, and monitor website uptime and domain configuration with our AI-augmented testing tool. Ensure seamless functionality with website monitoring, domain monitoring, site check, DMARC, DNS checks, and more. Streamline test automation and enhance API reliability."
+theme:
+  name: readthedocs
+  custom_dir: overrides
+extra_css: [css/extra.css]
+nav:
+  - Platform:
+    - Overview:
+      - Features: pages/platform/overview/features.md
+      - Docker: pages/platform/overview/docker.md
+      - Cloud App: pages/platform/overview/cloud.md
+      - Quick start: pages/platform/overview/quick-start.md
+    - Configuration:
+      - Test collections: pages/platform/configuration/test-collections.md
+      - Test chaining: pages/platform/configuration/test-chaining.md
+      - Validators: pages/platform/configuration/validators.md
+      - Functions: pages/platform/configuration/functions.md
+      - Variables: pages/platform/configuration/variables.md
+      - Secrets: pages/platform/configuration/secrets.md
+      - Tags: pages/platform/configuration/tags.md
+    - Integrations:
+      - CI/CD integration: pages/platform/integrations/ci-cd-integration.md
+      - GitHub integration: pages/platform/integrations/github-integration.md
+      - Jira Xray integration: pages/platform/integrations/jira-xray-integration.md
+      - OpenAI integration: pages/platform/integrations/openai-integration.md
+      - Slack integration: pages/platform/integrations/slack-integration.md
+      - Webhooks integration: pages/platform/integrations/webhook-integration.md
+  - Learning Center:
+    - Testing:
+      - REST API: pages/learning/testing/rest-api.md
+      - API Testing: pages/learning/testing/api-testing.md
+      - AI Augmented Testing: pages/learning/testing/ai-augmented-testing.md
+      #- Test automation: coming-soon.md
+      - How to test API with Testlemon: pages/learning/testing/how-to-test-api-with-testlemon.md
+      - Test end-to-end API workflows in Testlemon: pages/learning/testing/test-end-to-end-api-workflows-in-testlemon.md
+      - How to import tests to Jira Xray: pages/learning/testing/how-to-import-test-results-to-jira-xray.md
+    - Monitoring:
+      - Uptime monitoring: pages/learning/monitoring/uptime-monitoring.md
+      - SSL monitoring: pages/learning/monitoring/ssl-monitoring.md
+      - TLS monitoring: pages/learning/monitoring/tls-monitoring.md
+      - DNS monitoring: pages/learning/monitoring/dns-monitoring.md
+      - DMARC monitoring: pages/learning/monitoring/dmarc-monitoring.md
+      - Keyword monitoring: pages/learning/monitoring/keyword-monitoring.md
+    #- Alternatives:
+      #- Alternative to Uptimerobot: coming-soon.md
+      #- Alternative to Postman: coming-soon.md
+      #- Alternative to Betterstack: coming-soon.md
+      #- Alternative to Insomnia: coming-soon.md
+      #- Alternative to Pinghome: coming-soon.md
+  - Terms:
+    - Privacy Policy: privacy-policy.md
+    - Terms of Use: terms-of-use.md
+  - References:
+    - Examples: 'https://github.com/itbusina/testlemon-docs/tree/main/examples'
+    - Portal: 'https://app.testlemon.com/'
+    - Contact Us: 'https://testlemon.com/index.html#contact'

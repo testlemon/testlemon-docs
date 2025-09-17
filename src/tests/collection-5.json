@@ -1,0 +1,15 @@
+{
+  "name": "Test collection with secrets",
+  "baseAddress": "${{ secrets.host }}",
+  "requests": [
+    {
+      "url": "/users"
+    },
+    {
+      "url": "/users/-1",
+      "validators": [
+        { "status-code": "404" }
+      ]
+    }
+  ]
+}
